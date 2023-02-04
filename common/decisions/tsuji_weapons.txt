@@ -1,0 +1,36 @@
+weapon_sales = {
+    
+	tsuji_infantry_equipment = {
+        icon = generic_prepare_civil_war
+        cost = 69
+        days_remove = 180
+        available  = {
+            fascism < 0.15 
+            communism < 0.15
+        }
+        complete_effect = {
+            add_equipment_to_stockpile = {
+                type = infantry_equipment
+                amount = 5000
+                producer = FRA
+            }
+        }
+    }
+
+    tsuji_support_equipment = {
+        icon = generic_prepare_civil_war
+        cost = 69
+        days_remove = 180
+        available  = {
+            fascism < 0.15 
+            communism < 0.15
+        }
+        complete_effect = {
+            add_equipment_to_stockpile = {
+                type = support_equipment
+                amount = 1000
+                producer = FRA
+            }
+        }
+    }
+}
