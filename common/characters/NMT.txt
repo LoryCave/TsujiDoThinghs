@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Tsuji Rena
+tsuji_rena = {
+	name = tsuji_rena
+	portraits = {
+		civilian = {
+			#Custom image for Tsuji Rena
+			large = "/gfx/leaders/NMT/leURSKmk-9404.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.01.01"
+		ideology = moderatism
+		traits = {  dislikes_germany }
+	}
+}
+}

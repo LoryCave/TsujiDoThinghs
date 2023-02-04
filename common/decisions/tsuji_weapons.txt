@@ -1,4 +1,4 @@
-weapon_sales = {
+﻿weapon_sales = {
     
 	tsuji_infantry_equipment = {
         icon = generic_prepare_civil_war

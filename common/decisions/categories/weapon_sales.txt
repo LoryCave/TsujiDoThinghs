@@ -1,4 +1,4 @@
-weapon_sales = {
+﻿weapon_sales = {
 	icon = generic_political_actions
 	priority = 2
 }
