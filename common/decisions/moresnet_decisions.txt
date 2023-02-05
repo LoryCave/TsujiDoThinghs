@@ -1,0 +1,42 @@
+moresnet = {
+	submit_to_the_neutral_moresnet = {
+		icon = decision_icon_submit_to_the_neutral_moresnet
+		fire_only_once = yes
+
+		visible = {
+			any_other_country = { tag = NMT }
+			is_puppet = NMT
+		}
+
+		complete_effect = {
+			NMT ={     
+				puppet = {
+          			target = ROOT
+    			}			
+			}
+		}
+	}
+
+	the_final_step = {
+		icon = decision_icon_submit_to_the_neutral_moresnet
+		fire_only_once = yes
+
+		visible = {
+			any_other_country = { tag = NMT }
+	        is_puppet_of = NMT
+		}
+
+		available = {
+			neutrality > 0.99
+		}
+
+		complete_effect = {
+			NMT = {     
+				annex_country  = {
+          			target = ROOT
+          			transfer_troops = yes
+    			}			
+			}
+		}
+	}
+}

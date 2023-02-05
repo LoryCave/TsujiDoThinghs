@@ -1,0 +1,28 @@
+state={
+	id=910
+	name="STATE_910"
+	
+	state_category = large_city
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+		}
+		
+		victory_points = { 3488 3 }
+
+		add_core_of = ITA
+		add_core_of = SPM
+	}
+
+	provinces={
+		3772 6788 6973 11891 
+	}
+
+	manpower=1500000
+	buildings_max_level_factor=4.000
+	local_supplies=0.000
+}

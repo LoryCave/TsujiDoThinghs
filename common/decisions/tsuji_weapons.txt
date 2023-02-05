@@ -1,36 +1,64 @@
 ﻿weapon_sales = {
-    
 	tsuji_infantry_equipment = {
         icon = generic_prepare_civil_war
         cost = 69
-        days_remove = 180
+        days_remove = 250
         available  = {
             fascism < 0.15 
             communism < 0.15
+            NMT = { exists = yes }
+            NOT = { tag = NMT }
         }
+        
         complete_effect = {
-            add_equipment_to_stockpile = {
-                type = infantry_equipment
-                amount = 5000
-                producer = FRA
+            if = {
+                limit = { is_puppet_of = NMT }
+                    add_equipment_to_stockpile = {
+                        type = infantry_equipment
+                        amount = 10000
+                        producer = NMT
+                    }
             }
+            else = {
+                    add_equipment_to_stockpile = {
+                        type = infantry_equipment
+                        amount = 5000
+                        producer = NMT
+                    }
+                }
+            }
+        
         }
-    }
 
     tsuji_support_equipment = {
         icon = generic_prepare_civil_war
         cost = 69
-        days_remove = 180
+        days_remove = 250
         available  = {
             fascism < 0.15 
             communism < 0.15
+            NMT = { exists = yes }
+            NOT = { tag = NMT }
         }
+
         complete_effect = {
-            add_equipment_to_stockpile = {
-                type = support_equipment
-                amount = 1000
-                producer = FRA
+            if = {
+                limit = { is_puppet_of = NMT }
+                    add_equipment_to_stockpile = {
+                        type = support_equipment
+                        amount = 5000
+                        producer = NMT
+                    }
             }
+            else = {
+                    add_equipment_to_stockpile = {
+                        type = support_equipment
+                        amount = 1000
+                        producer = NMT
+                    }
+                }
+            }
+        
         }
     }
 }

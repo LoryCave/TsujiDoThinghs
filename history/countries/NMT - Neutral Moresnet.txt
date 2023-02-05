@@ -35,4 +35,9 @@ set_popularities = {
 }
 
 recruit_character = tsuji_rena
+recruit_character = kanye_east
+recruit_character = timoshenko
+recruit_character = pol_pot
+recruit_character = zhong_xina
+recruit_character = TOXAYhEb
 

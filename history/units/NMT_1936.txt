@@ -1,0 +1,22 @@
+#Create units
+division_template = {
+	name = "Infantry Division"
+	division_names_group = "NMT_DIV_0_0"
+	regiments = {
+		infantry = { x = 0 y = 0}
+		infantry = { x = 0 y = 1}
+		infantry = { x = 1 y = 0}
+	}
+	support = {
+	}
+
+}
+
+#Spawn units
+units = {
+	division= {
+		name = "1st Moresnet Infantry Division"
+		location = 3488
+		division_template = "Infantry Division"
+	}
+}
