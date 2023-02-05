@@ -5,7 +5,7 @@ pol_pot = {
 	portraits = {
 		civilian = {
 			#Custom image for Pol Pot
-			large = "/gfx/leaders/NMT/cUCtvoiD-394779.dds"
+			large = "/gfx/leaders/NMT/WvUrPtZs-394779.dds"
 		}
 	}
 	country_leader = {
@@ -21,7 +21,7 @@ timoshenko = {
 	portraits = {
 		civilian = {
 			#Custom image for Tim O'Shenko
-			large = "/gfx/leaders/NMT/DpCqYMUr-394775.dds"
+			large = "/gfx/leaders/NMT/xIvMHVgj-394775.dds"
 		}
 	}
 	country_leader = {
@@ -37,7 +37,7 @@ kanye_east = {
 	portraits = {
 		civilian = {
 			#Custom image for Kanye East
-			large = "/gfx/leaders/NMT/oHvlakiR-9406.dds"
+			large = "/gfx/leaders/NMT/QtbkXhJU-395316.dds"
 		}
 	}
 	country_leader = {
@@ -53,7 +53,7 @@ tsuji_rena = {
 	portraits = {
 		civilian = {
 			#Custom image for Tsuji Rena
-			large = "/gfx/leaders/NMT/ebwqGVXK-394774.dds"
+			large = "/gfx/leaders/NMT/RoHcxNPw-395323.dds"
 		}
 	}
 	country_leader = {
@@ -69,39 +69,17 @@ tsuji_rena = {
 		portraits = {
 			army = {
 				#Custom images for Zhong Xina
-				large = "/gfx/leaders/NMT/zhong_xina-394785.dds"
-				small = "/gfx/interface/ideas/NMT/zhong_xina-394785.dds"
+				large = "/gfx/leaders/NMT/zhong_xina-395306.dds"
+				small = "/gfx/interface/ideas/NMT/zhong_xina-395306.dds"
 			}
 		}
 		corps_commander = {
-			traits = { war_hero media_personality logistics_wizard inspirational_leader trickster commando camouflage_expert }
+			traits = {war_hero media_personality trickster commando camouflage_expert  }
 			skill = 5
 			attack_skill = 4
 			defense_skill = 2
 			planning_skill = 5
 			logistics_skill = 5
-		legacy_id = 150808780
+		legacy_id = 180808780
 		}
 	}
-
-#Create military leader - Tsuji Rena
-	TOXAYhEb = {
-		name = "TOXAYhEb"
-		portraits = {
-			army = {
-				#Custom images for Tsuji Rena
-				large = "/gfx/leaders/NMT/TOXAYhEb-394774.dds"
-				small = "/gfx/interface/ideas/NMT/TOXAYhEb-394774.dds"
-			}
-		}
-		field_marshal = {
-			traits = { brilliant_strategist war_hero career_officer media_personality operative_natural_orator }
-			skill = 5
-			attack_skill = 4
-			defense_skill = 5
-			planning_skill = 6
-			logistics_skill = 4
-		legacy_id = 150808781
-		}
-	}
-}

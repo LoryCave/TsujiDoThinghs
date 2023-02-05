@@ -1,20 +1,20 @@
 ﻿oob = "NMT_1936"
 capital = 909
 set_research_slots = 2
+
 set_stability = 1
 set_war_support = 0
 set_convoys = 0
-
 
 add_ideas = {
 	disarmed_nation
 	civilian_economy
 }
 
-
 #Starting tech
 set_technology = {
 	infantry_weapons = 1
+	infantry_weapons1 = 1
 	basic_train = 1
 	gw_artillery = 1
 	tech_support = 1
@@ -39,5 +39,3 @@ recruit_character = kanye_east
 recruit_character = timoshenko
 recruit_character = pol_pot
 recruit_character = zhong_xina
-recruit_character = TOXAYhEb
-

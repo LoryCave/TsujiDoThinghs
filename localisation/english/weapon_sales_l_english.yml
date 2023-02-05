@@ -1,6 +1,3 @@
 ﻿l_english:
-	weapon_sales:0 "Weapon Sales"
-	tsuji_infantry_equipment:0 "Tsuji Infantry Equipment"
-	tsuji_infantry_equipment_desc:0 "Buy infantry equipment from Tsuji"
-	tsuji_support_equipment:0 "Tsuji Support Equipment"
-	tsuji_support_equipment_desc:0 "Buy support equipment from Tsuji"
+  weapon_sales:0 "Weapon Sales"
+  tsuji_infantry_equipment:0 "Tsuji Infantry Equipment"

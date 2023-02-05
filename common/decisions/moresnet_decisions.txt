@@ -5,14 +5,12 @@ moresnet = {
 
 		visible = {
 			any_other_country = { tag = NMT }
-			is_puppet = NMT
+			is_puppet = no
 		}
 
 		complete_effect = {
 			NMT ={     
-				puppet = {
-          			target = ROOT
-    			}			
+				puppet = ROOT
 			}
 		}
 	}
