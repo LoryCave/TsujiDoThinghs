@@ -1,0 +1,31 @@
+add_namespace = n
+
+#Tsuji Infantry weapons
+news_event = {
+	id = n.1
+	title = "[?nation_name.GetName] bought weapons from Neutral Moresnet"
+	desc = n.1.d
+	picture = GFX_buy_weapons
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Kinda cool"
+	}
+}
+
+#Submit to Neutral Moresnet
+news_event = {
+	id = n.2
+	title = "[?nation_name.GetName] submitted to the Neutral Moresnet"
+	desc = n.2.d
+	picture = GFX_submit_to_nmt
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Maybe I should do it too"
+	}
+}

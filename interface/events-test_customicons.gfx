@@ -1,0 +1,13 @@
+spriteTypes = { 
+	##Icon For: Buy weapons
+	SpriteType = { 
+		name = "GFX_buy_weapons"
+		texturefile = "gfx/interface/events/test-event/news_event_generic_factory.dds"
+	}
+
+	##Icon For: Submit to Neutral Moresnet
+	SpriteType = { 
+		name = "GFX_submit_to_nmt"
+		texturefile = "gfx/interface/events/test-event/news_event_write.dds"
+	}
+ }

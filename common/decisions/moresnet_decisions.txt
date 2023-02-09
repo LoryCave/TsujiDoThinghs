@@ -9,6 +9,11 @@ moresnet = {
 		}
 
 		complete_effect = {
+			set_variable = {
+                var = nation_name
+                value = THIS
+            }
+            news_event = n.2
 			NMT ={     
 				puppet = ROOT
 			}

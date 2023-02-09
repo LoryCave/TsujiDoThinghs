@@ -11,6 +11,11 @@ weapon_sales = {
         }
         
         complete_effect = {
+            set_variable = {
+                var = nation_name
+                value = THIS
+            }
+            news_event = n.1
             if = {
                 limit = { is_puppet_of = NMT }
                     add_equipment_to_stockpile = {
@@ -42,6 +47,11 @@ weapon_sales = {
         }
 
         complete_effect = {
+            set_variable = {
+                var = nation_name
+                value = THIS
+            }
+            news_event = n.1
             if = {
                 limit = { is_puppet_of = NMT }
                     add_equipment_to_stockpile = {

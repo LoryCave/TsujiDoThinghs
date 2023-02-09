@@ -2,6 +2,9 @@
 capital = 909
 set_research_slots = 2
 
+create_faction = "Big Moresnet"
+add_to_faction = NMT
+
 set_stability = 1
 set_war_support = 0
 set_convoys = 0
